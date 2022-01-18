@@ -20,5 +20,25 @@ setTimeout(() => {
 setTimeout(() => {
   // Need to escape the backslash since it's a special character.
   process.stdout.write('\r\|  '); 
-}, 800);
+}, 1000);
 
+setTimeout(() => {
+  // Need to escape the backslash since it's a special character.
+  process.stdout.write('\r\/  '); 
+}, 1100);
+
+setTimeout(() => {
+  // Need to escape the backslash since it's a special character.
+  process.stdout.write('\r\-  '); 
+}, 1200);
+
+
+setTimeout(() => {
+  // Need to escape the backslash since it's a special character.
+  process.stdout.write('\r\\  '); 
+}, 1400);
+
+setTimeout(() => {
+  // Need to escape the backslash since it's a special character.
+  process.stdout.write('\r\|  '); 
+}, 1500);
